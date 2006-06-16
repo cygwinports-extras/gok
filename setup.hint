@@ -1,0 +1,13 @@
+category: Gnome
+requires: cygwin GConf2 ORBit2 at-spi atk glib2 gnome-speech gtk2-x11 libX11_6 libXi6 libbonobo2 libesound0 libglade2 libgnome2 libgnomeui2 libwnck1_18
+sdesc: "GNOME On-screen Keyboard"
+ldesc: "The GNOME On-screen Keyboard (GOK) is a dynamic on-screen
+keyboard for UNIX and UNIX-like operating systems.  It features Direct
+Selection, Dwell Selection, Automatic Scanning and Inverse Scanning
+access methods and includes word completion.
+
+GOK includes an alphanumeric keyboard and a keyboard for launching
+applications.  Keyboards are specified in XML enabling existing
+keyboards to be modified and new keyboards to be created.  The access
+methods are also specified in XML providing the ability to modify
+existing access methods and create new ones."
