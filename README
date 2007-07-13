@@ -12,39 +12,45 @@ methods are also specified in XML providing the ability to modify
 existing access methods and create new ones.
 
 Runtime requirements:
-  cygwin-1.5.19-4
-  GConf2-2.12.1-1
-  ORBit2-2.14.0-1
-  at-spi-1.6.6-1
-  atk-1.10.3-1
-  glib2-2.8.6-1
-  gnome-speech-0.3.9-1
-  gtk2-x11-2.8.17-1
-  libX11_6-1.0.0-2
-  libXi6-1.0.0-1
-  libbonobo2-2.14.0-1
-  libesound0-0.2.36-1
-  libglade2-2.5.1-1
-  libgnome2-2.14.1-1
-  libgnomeui2-2.14.1-1
-  libwnck1_18-2.14.1-1
+  cygwin-1.5.24-2
+  GConf2-2.18.0.1-1
+  ORBit2-2.14.7-1
+  at-spi-1.18.1-1
+  atk-1.18.0-1
+  gdk-pixbuf2-2.10.13-1
+  glib2-2.12.12-2
+  gnome-speech-0.4.12-1
+  gtk2-x11-2.10.13-1
+  libX11_6-1.1.1-1
+  libXevie1-1.0.2-1
+  libXi6-1.1.0-1
+  libbonobo2-2.18.0-1
+  libesound0-0.2.38-1
+  libglade2-2.6.1-1
+  libgnome2-2.18.0-1
+  libgnomeui2-2.18.1-1
+  libintl8-0.15-1
+  libwnck1_18-2.18.3-1
+  libxml2-2.6.28-2
+  pango-1.16.4-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.19-4
-  autoconf2.5-2.59-3
-  automake1.9-1.9.6-1
-  binutils-20050610-1
-  cygport-0.1.92-1
-  gawk-3.1.5-2
-  gcc-core-3.4.4-1
-  gtk-doc-1.5-1
-  intltool-0.34.2-1
-  libtool1.5-1.5.22-1
-  make-3.80-1
-  pkg-config-0.20-1
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.8-1.8.5-3
+  binutils-20060817-1
+  cygport-0.3.5-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  gnome-common-2.18.0-1
+  gtk-doc-1.8-1
+  intltool-0.35.5-1
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
   scrollkeeper-0.3.14-2
-  sed-4.1.4-1
+  sed-4.1.5-2
 
 Canonical website:
   http://www.gok.ca/
@@ -55,20 +61,19 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gok-1.0.10-X-src.tar.bz2
+  unpack gok-1.2.5-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gok-1.0.10-X.cygport all
+  cygport ./gok-1.2.5-X.cygport all
 
 This will create:
-  /usr/src/gok-1.0.10-X-src.tar.bz2
-  /usr/src/gok-1.0.10-X.tar.bz2
+  /usr/src/gok-1.2.5-X-src.tar.bz2
+  /usr/src/gok-1.2.5-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
-
 
   /etc/gconf/schemas/gok.schemas
   /etc/postinstall/gok.sh
@@ -78,13 +83,13 @@ Files included in the binary package:
   /usr/lib/bonobo/servers/GNOME_Gok.server
   /usr/lib/pkgconfig/gok-1.0.pc
   /usr/share/applications/gok.desktop
-  /usr/share/doc/Cygwin/gok-1.0.10.README
-  /usr/share/doc/gok-1.0.10/AUTHORS
-  /usr/share/doc/gok-1.0.10/COPYING
-  /usr/share/doc/gok-1.0.10/ChangeLog
-  /usr/share/doc/gok-1.0.10/INSTALL
-  /usr/share/doc/gok-1.0.10/NEWS
-  /usr/share/doc/gok-1.0.10/README
+  /usr/share/doc/Cygwin/gok-1.2.5.README
+  /usr/share/doc/gok-1.2.5/AUTHORS
+  /usr/share/doc/gok-1.2.5/COPYING
+  /usr/share/doc/gok-1.2.5/ChangeLog
+  /usr/share/doc/gok-1.2.5/INSTALL
+  /usr/share/doc/gok-1.2.5/NEWS
+  /usr/share/doc/gok-1.2.5/README
   /usr/share/gnome/help/gok/C/gok.xml
   /usr/share/gnome/help/gok/C/legal.xml
   /usr/share/gok/East.png
@@ -106,6 +111,16 @@ Files included in the binary package:
   /usr/share/gok/am/quit.kbd
   /usr/share/gok/am/text-operations.kbd
   /usr/share/gok/am/valuator.kbd
+  /usr/share/gok/ang/gok-controls.kbd
+  /usr/share/gok/ang/hide.kbd
+  /usr/share/gok/ang/launcher.kbd
+  /usr/share/gok/ang/main.kbd
+  /usr/share/gok/ang/mouse.kbd
+  /usr/share/gok/ang/move-resize.kbd
+  /usr/share/gok/ang/numberpad.kbd
+  /usr/share/gok/ang/quit.kbd
+  /usr/share/gok/ang/text-operations.kbd
+  /usr/share/gok/ang/valuator.kbd
   /usr/share/gok/ar/gok-controls.kbd
   /usr/share/gok/ar/hide.kbd
   /usr/share/gok/ar/launcher.kbd
@@ -157,6 +172,16 @@ Files included in the binary package:
   /usr/share/gok/bn/quit.kbd
   /usr/share/gok/bn/text-operations.kbd
   /usr/share/gok/bn/valuator.kbd
+  /usr/share/gok/bn_IN/gok-controls.kbd
+  /usr/share/gok/bn_IN/hide.kbd
+  /usr/share/gok/bn_IN/launcher.kbd
+  /usr/share/gok/bn_IN/main.kbd
+  /usr/share/gok/bn_IN/mouse.kbd
+  /usr/share/gok/bn_IN/move-resize.kbd
+  /usr/share/gok/bn_IN/numberpad.kbd
+  /usr/share/gok/bn_IN/quit.kbd
+  /usr/share/gok/bn_IN/text-operations.kbd
+  /usr/share/gok/bn_IN/valuator.kbd
   /usr/share/gok/ca/gok-controls.kbd
   /usr/share/gok/ca/hide.kbd
   /usr/share/gok/ca/launcher.kbd
@@ -334,7 +359,6 @@ Files included in the binary package:
   /usr/share/gok/gl/valuator.kbd
   /usr/share/gok/glade/gok.glade2
   /usr/share/gok/gok-controls.kbd
-  /usr/share/gok/gok.png
   /usr/share/gok/gok.rc
   /usr/share/gok/goklogo.png
   /usr/share/gok/goksound1.wav
@@ -454,6 +478,16 @@ Files included in the binary package:
   /usr/share/gok/lt/quit.kbd
   /usr/share/gok/lt/text-operations.kbd
   /usr/share/gok/lt/valuator.kbd
+  /usr/share/gok/lv/gok-controls.kbd
+  /usr/share/gok/lv/hide.kbd
+  /usr/share/gok/lv/launcher.kbd
+  /usr/share/gok/lv/main.kbd
+  /usr/share/gok/lv/mouse.kbd
+  /usr/share/gok/lv/move-resize.kbd
+  /usr/share/gok/lv/numberpad.kbd
+  /usr/share/gok/lv/quit.kbd
+  /usr/share/gok/lv/text-operations.kbd
+  /usr/share/gok/lv/valuator.kbd
   /usr/share/gok/main.kbd
   /usr/share/gok/manage.kbd
   /usr/share/gok/mk/gok-controls.kbd
@@ -488,6 +522,16 @@ Files included in the binary package:
   /usr/share/gok/mn/valuator.kbd
   /usr/share/gok/mouse.kbd
   /usr/share/gok/move-resize.kbd
+  /usr/share/gok/mr/gok-controls.kbd
+  /usr/share/gok/mr/hide.kbd
+  /usr/share/gok/mr/launcher.kbd
+  /usr/share/gok/mr/main.kbd
+  /usr/share/gok/mr/mouse.kbd
+  /usr/share/gok/mr/move-resize.kbd
+  /usr/share/gok/mr/numberpad.kbd
+  /usr/share/gok/mr/quit.kbd
+  /usr/share/gok/mr/text-operations.kbd
+  /usr/share/gok/mr/valuator.kbd
   /usr/share/gok/ms/gok-controls.kbd
   /usr/share/gok/ms/hide.kbd
   /usr/share/gok/ms/launcher.kbd
@@ -529,6 +573,26 @@ Files included in the binary package:
   /usr/share/gok/nl/text-operations.kbd
   /usr/share/gok/nl/valuator.kbd
   /usr/share/gok/numberpad.kbd
+  /usr/share/gok/oc/gok-controls.kbd
+  /usr/share/gok/oc/hide.kbd
+  /usr/share/gok/oc/launcher.kbd
+  /usr/share/gok/oc/main.kbd
+  /usr/share/gok/oc/mouse.kbd
+  /usr/share/gok/oc/move-resize.kbd
+  /usr/share/gok/oc/numberpad.kbd
+  /usr/share/gok/oc/quit.kbd
+  /usr/share/gok/oc/text-operations.kbd
+  /usr/share/gok/oc/valuator.kbd
+  /usr/share/gok/or/gok-controls.kbd
+  /usr/share/gok/or/hide.kbd
+  /usr/share/gok/or/launcher.kbd
+  /usr/share/gok/or/main.kbd
+  /usr/share/gok/or/mouse.kbd
+  /usr/share/gok/or/move-resize.kbd
+  /usr/share/gok/or/numberpad.kbd
+  /usr/share/gok/or/quit.kbd
+  /usr/share/gok/or/text-operations.kbd
+  /usr/share/gok/or/valuator.kbd
   /usr/share/gok/pa/gok-controls.kbd
   /usr/share/gok/pa/hide.kbd
   /usr/share/gok/pa/launcher.kbd
@@ -603,6 +667,16 @@ Files included in the binary package:
   /usr/share/gok/rw/valuator.kbd
   /usr/share/gok/singlekey-automatic-scanning.xam
   /usr/share/gok/singlekey-inverse-scanning.xam
+  /usr/share/gok/sk/gok-controls.kbd
+  /usr/share/gok/sk/hide.kbd
+  /usr/share/gok/sk/launcher.kbd
+  /usr/share/gok/sk/main.kbd
+  /usr/share/gok/sk/mouse.kbd
+  /usr/share/gok/sk/move-resize.kbd
+  /usr/share/gok/sk/numberpad.kbd
+  /usr/share/gok/sk/quit.kbd
+  /usr/share/gok/sk/text-operations.kbd
+  /usr/share/gok/sk/valuator.kbd
   /usr/share/gok/sl/gok-controls.kbd
   /usr/share/gok/sl/hide.kbd
   /usr/share/gok/sl/launcher.kbd
@@ -665,6 +739,16 @@ Files included in the binary package:
   /usr/share/gok/ta/text-operations.kbd
   /usr/share/gok/ta/valuator.kbd
   /usr/share/gok/text-operations.kbd
+  /usr/share/gok/tr/gok-controls.kbd
+  /usr/share/gok/tr/hide.kbd
+  /usr/share/gok/tr/launcher.kbd
+  /usr/share/gok/tr/main.kbd
+  /usr/share/gok/tr/mouse.kbd
+  /usr/share/gok/tr/move-resize.kbd
+  /usr/share/gok/tr/numberpad.kbd
+  /usr/share/gok/tr/quit.kbd
+  /usr/share/gok/tr/text-operations.kbd
+  /usr/share/gok/tr/valuator.kbd
   /usr/share/gok/uk/gok-controls.kbd
   /usr/share/gok/uk/hide.kbd
   /usr/share/gok/uk/launcher.kbd
@@ -723,7 +807,9 @@ Files included in the binary package:
   /usr/share/gok/zh_TW/text-operations.kbd
   /usr/share/gok/zh_TW/valuator.kbd
   /usr/share/gtk-doc/html/gok/ch01.html
-  /usr/share/gtk-doc/html/gok/gok-GokButton.html
+  /usr/share/gtk-doc/html/gok/ch02.html
+  /usr/share/gtk-doc/html/gok/ch03.html
+  /usr/share/gtk-doc/html/gok/ch04.html
   /usr/share/gtk-doc/html/gok/gok-arraylist.html
   /usr/share/gtk-doc/html/gok/gok-callbacks.html
   /usr/share/gtk-doc/html/gok/gok-command-common.html
@@ -778,12 +864,15 @@ Files included in the binary package:
   /usr/share/gtk-doc/html/gok/right.png
   /usr/share/gtk-doc/html/gok/style.css
   /usr/share/gtk-doc/html/gok/up.png
+  /usr/share/icons/hicolor/48x48/apps/gok.png
   /usr/share/locale/am/LC_MESSAGES/gok.mo
+  /usr/share/locale/ang/LC_MESSAGES/gok.mo
   /usr/share/locale/ar/LC_MESSAGES/gok.mo
   /usr/share/locale/az/LC_MESSAGES/gok.mo
   /usr/share/locale/be/LC_MESSAGES/gok.mo
   /usr/share/locale/bg/LC_MESSAGES/gok.mo
   /usr/share/locale/bn/LC_MESSAGES/gok.mo
+  /usr/share/locale/bn_IN/LC_MESSAGES/gok.mo
   /usr/share/locale/ca/LC_MESSAGES/gok.mo
   /usr/share/locale/cs/LC_MESSAGES/gok.mo
   /usr/share/locale/cy/LC_MESSAGES/gok.mo
@@ -812,13 +901,17 @@ Files included in the binary package:
   /usr/share/locale/ko/LC_MESSAGES/gok.mo
   /usr/share/locale/ku/LC_MESSAGES/gok.mo
   /usr/share/locale/lt/LC_MESSAGES/gok.mo
+  /usr/share/locale/lv/LC_MESSAGES/gok.mo
   /usr/share/locale/mk/LC_MESSAGES/gok.mo
   /usr/share/locale/ml/LC_MESSAGES/gok.mo
   /usr/share/locale/mn/LC_MESSAGES/gok.mo
+  /usr/share/locale/mr/LC_MESSAGES/gok.mo
   /usr/share/locale/ms/LC_MESSAGES/gok.mo
   /usr/share/locale/nb/LC_MESSAGES/gok.mo
   /usr/share/locale/ne/LC_MESSAGES/gok.mo
   /usr/share/locale/nl/LC_MESSAGES/gok.mo
+  /usr/share/locale/oc/LC_MESSAGES/gok.mo
+  /usr/share/locale/or/LC_MESSAGES/gok.mo
   /usr/share/locale/pa/LC_MESSAGES/gok.mo
   /usr/share/locale/pl/LC_MESSAGES/gok.mo
   /usr/share/locale/pt/LC_MESSAGES/gok.mo
@@ -826,12 +919,14 @@ Files included in the binary package:
   /usr/share/locale/ro/LC_MESSAGES/gok.mo
   /usr/share/locale/ru/LC_MESSAGES/gok.mo
   /usr/share/locale/rw/LC_MESSAGES/gok.mo
+  /usr/share/locale/sk/LC_MESSAGES/gok.mo
   /usr/share/locale/sl/LC_MESSAGES/gok.mo
   /usr/share/locale/sq/LC_MESSAGES/gok.mo
   /usr/share/locale/sr/LC_MESSAGES/gok.mo
   /usr/share/locale/sr@Latn/LC_MESSAGES/gok.mo
   /usr/share/locale/sv/LC_MESSAGES/gok.mo
   /usr/share/locale/ta/LC_MESSAGES/gok.mo
+  /usr/share/locale/tr/LC_MESSAGES/gok.mo
   /usr/share/locale/uk/LC_MESSAGES/gok.mo
   /usr/share/locale/vi/LC_MESSAGES/gok.mo
   /usr/share/locale/zh_CN/LC_MESSAGES/gok.mo
@@ -843,6 +938,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.2.5-1 -----
+Version bump for GNOME 2.18.
 
 ----- version 1.0.10-1 -----
 Version bump.
