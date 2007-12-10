@@ -13,43 +13,43 @@ existing access methods and create new ones.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  GConf2-2.18.0.1-1
-  ORBit2-2.14.7-1
-  at-spi-1.18.1-1
-  atk-1.18.0-1
-  gdk-pixbuf2-2.10.13-1
-  glib2-2.12.12-2
-  gnome-speech-0.4.12-1
-  gtk2-x11-2.10.13-1
-  libX11_6-1.1.1-1
+  GConf2-2.20.1-1
+  ORBit2-2.14.10-1
+  at-spi-1.20.1-1
+  atk-1.20.0-1
+  gdk-pixbuf2-2.12.2-1
+  glib2-2.14.4-1
+  gnome-speech-0.4.16-1
+  gtk2-x11-2.12.2-1
+  libX11_6-1.1.3-1
   libXevie1-1.0.2-1
-  libXi6-1.1.0-1
-  libbonobo2-2.18.0-1
+  libXi6-1.1.3-1
+  libbonobo2-2.20.1-1
   libesound0-0.2.38-1
-  libglade2-2.6.1-1
-  libgnome2-2.18.0-1
-  libgnomeui2-2.18.1-1
+  libglade2-2.6.2-1
+  libgnome2-2.20.1.1-1
+  libgnomeui2-2.20.1.1-1
   libintl8-0.15-1
-  libwnck1_18-2.18.3-1
-  libxml2-2.6.28-2
-  pango-1.16.4-1
+  libwnck1_22-2.20.2-1
+  libxml2-2.6.30-1
+  pango-1.18.3-1
 
 Build requirements:
 (besides corresponding -devel packages)
   cygwin-1.5.24-2
   autoconf2.5-2.61-1
-  automake1.8-1.8.5-3
+  automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.3.5-1
+  cygport-0.3.7-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
-  gnome-common-2.18.0-1
-  gtk-doc-1.8-1
-  intltool-0.35.5-1
+  gnome-common-2.20.0-1
+  gtk-doc-1.9-1
+  intltool-0.36.2-1
   libtool1.5-1.5.23a-2
   make-3.81-1
   pkg-config-0.21-1
-  scrollkeeper-0.3.14-2
+  rarian-0.6.0-1
   sed-4.1.5-2
 
 Canonical website:
@@ -61,15 +61,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gok-1.2.5-X-src.tar.bz2
+  unpack gok-1.3.7-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gok-1.2.5-X.cygport all
+  cygport ./gok-1.3.7-X.cygport all
 
 This will create:
-  /usr/src/gok-1.2.5-X-src.tar.bz2
-  /usr/src/gok-1.2.5-X.tar.bz2
+  /usr/src/gok-1.3.7-X-src.tar.bz2
+  /usr/src/gok-1.3.7-X.tar.bz2
 
 -------------------------------------------
 
@@ -83,13 +83,12 @@ Files included in the binary package:
   /usr/lib/bonobo/servers/GNOME_Gok.server
   /usr/lib/pkgconfig/gok-1.0.pc
   /usr/share/applications/gok.desktop
-  /usr/share/doc/Cygwin/gok-1.2.5.README
-  /usr/share/doc/gok-1.2.5/AUTHORS
-  /usr/share/doc/gok-1.2.5/COPYING
-  /usr/share/doc/gok-1.2.5/ChangeLog
-  /usr/share/doc/gok-1.2.5/INSTALL
-  /usr/share/doc/gok-1.2.5/NEWS
-  /usr/share/doc/gok-1.2.5/README
+  /usr/share/doc/gok-1.3.7/AUTHORS
+  /usr/share/doc/gok-1.3.7/COPYING
+  /usr/share/doc/gok-1.3.7/ChangeLog
+  /usr/share/doc/gok-1.3.7/INSTALL
+  /usr/share/doc/gok-1.3.7/NEWS
+  /usr/share/doc/gok-1.3.7/README
   /usr/share/gnome/help/gok/C/gok.xml
   /usr/share/gnome/help/gok/C/legal.xml
   /usr/share/gok/East.png
@@ -665,6 +664,16 @@ Files included in the binary package:
   /usr/share/gok/rw/quit.kbd
   /usr/share/gok/rw/text-operations.kbd
   /usr/share/gok/rw/valuator.kbd
+  /usr/share/gok/si/gok-controls.kbd
+  /usr/share/gok/si/hide.kbd
+  /usr/share/gok/si/launcher.kbd
+  /usr/share/gok/si/main.kbd
+  /usr/share/gok/si/mouse.kbd
+  /usr/share/gok/si/move-resize.kbd
+  /usr/share/gok/si/numberpad.kbd
+  /usr/share/gok/si/quit.kbd
+  /usr/share/gok/si/text-operations.kbd
+  /usr/share/gok/si/valuator.kbd
   /usr/share/gok/singlekey-automatic-scanning.xam
   /usr/share/gok/singlekey-inverse-scanning.xam
   /usr/share/gok/sk/gok-controls.kbd
@@ -738,7 +747,27 @@ Files included in the binary package:
   /usr/share/gok/ta/quit.kbd
   /usr/share/gok/ta/text-operations.kbd
   /usr/share/gok/ta/valuator.kbd
+  /usr/share/gok/te/gok-controls.kbd
+  /usr/share/gok/te/hide.kbd
+  /usr/share/gok/te/launcher.kbd
+  /usr/share/gok/te/main.kbd
+  /usr/share/gok/te/mouse.kbd
+  /usr/share/gok/te/move-resize.kbd
+  /usr/share/gok/te/numberpad.kbd
+  /usr/share/gok/te/quit.kbd
+  /usr/share/gok/te/text-operations.kbd
+  /usr/share/gok/te/valuator.kbd
   /usr/share/gok/text-operations.kbd
+  /usr/share/gok/th/gok-controls.kbd
+  /usr/share/gok/th/hide.kbd
+  /usr/share/gok/th/launcher.kbd
+  /usr/share/gok/th/main.kbd
+  /usr/share/gok/th/mouse.kbd
+  /usr/share/gok/th/move-resize.kbd
+  /usr/share/gok/th/numberpad.kbd
+  /usr/share/gok/th/quit.kbd
+  /usr/share/gok/th/text-operations.kbd
+  /usr/share/gok/th/valuator.kbd
   /usr/share/gok/tr/gok-controls.kbd
   /usr/share/gok/tr/hide.kbd
   /usr/share/gok/tr/launcher.kbd
@@ -919,6 +948,7 @@ Files included in the binary package:
   /usr/share/locale/ro/LC_MESSAGES/gok.mo
   /usr/share/locale/ru/LC_MESSAGES/gok.mo
   /usr/share/locale/rw/LC_MESSAGES/gok.mo
+  /usr/share/locale/si/LC_MESSAGES/gok.mo
   /usr/share/locale/sk/LC_MESSAGES/gok.mo
   /usr/share/locale/sl/LC_MESSAGES/gok.mo
   /usr/share/locale/sq/LC_MESSAGES/gok.mo
@@ -926,6 +956,8 @@ Files included in the binary package:
   /usr/share/locale/sr@Latn/LC_MESSAGES/gok.mo
   /usr/share/locale/sv/LC_MESSAGES/gok.mo
   /usr/share/locale/ta/LC_MESSAGES/gok.mo
+  /usr/share/locale/te/LC_MESSAGES/gok.mo
+  /usr/share/locale/th/LC_MESSAGES/gok.mo
   /usr/share/locale/tr/LC_MESSAGES/gok.mo
   /usr/share/locale/uk/LC_MESSAGES/gok.mo
   /usr/share/locale/vi/LC_MESSAGES/gok.mo
@@ -938,6 +970,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.3.7-1 -----
+Version bump for GNOME 2.20.
 
 ----- version 1.2.5-1 -----
 Version bump for GNOME 2.18.
