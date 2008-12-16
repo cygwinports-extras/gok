@@ -2,3 +2,6 @@ inherit gnome2
 
 DESCRIPTION="GNOME On-Screen Keyboard"
 HOMEPAGE="http://www.gok.ca/"
+
+# XEViE will be removed from xserver-1.6
+CYGCONF_ARGS="--disable-xevie"
