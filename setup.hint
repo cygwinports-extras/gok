@@ -1,5 +1,5 @@
-category: Gnome
-requires: GConf2 libatk1.0_0 libbonobo2_0 libesd0 libgcc1 libgconf2_4 libgdk_pixbuf2.0_0 libglade2.0_0 libglib2.0_0 libgnome2_0 libgnomespeech7 libgnomeui2_0 libgtk2.0_0 libintl8 libORBit2_0 libpango1.0_0 libspi0 libwnck1_22 libX11_6 libXi6 libxml2
+category: Gnome Accessibility
+requires: GConf2 libatk1.0_0 libbonobo2_0 libcanberra-gtk0 libcanberra0 libgcc1 libgconf2_4 libgdk_pixbuf2.0_0 libglade2.0_0 libglib2.0_0 libgnomespeech7 libgtk2.0_0 libintl8 libORBit2_0 libpango1.0_0 libspi0 libwnck1_22 libX11_6 libXi6 libxml2
 sdesc: "GNOME On-screen Keyboard"
 ldesc: "The GNOME On-screen Keyboard (GOK) is a dynamic on-screen
 keyboard for UNIX and UNIX-like operating systems.  It features Direct
